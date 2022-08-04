@@ -6,7 +6,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
-import androidx.appcompat.app.AppCompatActivity
 import androidx.core.widget.NestedScrollView
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
@@ -93,16 +92,12 @@ class GuestListFragment : Fragment() {
         viewBinding.rvHaveReservationGuests.adapter = guestHaveReservationAdapter
         viewBinding.rvNeedReservationGuests.adapter = guestNeedReservationAdapter
 
-//        (activity as? AppCompatActivity)?.setSupportActionBar(viewBinding.toolbar)
-//        (activity as? AppCompatActivity)?.supportActionBar?.setDisplayHomeAsUpEnabled(true)
-//        (activity as? AppCompatActivity)?.supportActionBar?.setDisplayShowHomeEnabled(true)
-//        viewBinding.toolbar.setNavigationOnClickListener { requireActivity().onBackPressed() }
-
         viewBinding.buttonToolbarBack.setOnClickListener { requireActivity().onBackPressed() }
         viewBinding.buttonContinue.setOnClickListener {
             viewModel.onContinueProcess()
         }
 
+        // scroll behavior: checking the scroll position to update heading title display
         viewBinding.nestedScrollview.setOnScrollChangeListener(NestedScrollView.OnScrollChangeListener { _, _, scrollY, _, _ ->
             if (scrollY > (viewBinding.tvGuestReservationLabel.y + viewBinding.tvGuestReservationLabel.height).toInt()
                 && scrollY < viewBinding.tvGuestNeedReservationLabel.y

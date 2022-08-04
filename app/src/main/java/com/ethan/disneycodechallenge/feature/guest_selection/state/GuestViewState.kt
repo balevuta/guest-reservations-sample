@@ -8,13 +8,13 @@ sealed class GuestViewState {
 
     object SaveGuestsSucceed : GuestViewState()
 
-    class EnableContinueButton(val enabled: Boolean) : GuestViewState()
-
     object ReservationNeededAlert : GuestViewState()
 
     object ContinueToConfirmation : GuestViewState()
 
     object ContinueToConflict : GuestViewState()
+
+    class EnableContinueButton(val enabled: Boolean) : GuestViewState()
 
     class GetGuestsSucceed(
         val guestsHaveReservations: List<GuestModel>,
