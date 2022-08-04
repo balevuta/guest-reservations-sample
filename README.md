@@ -1,14 +1,14 @@
 # Guests reservations application example with Android Architecture MVVM components and Clean Architecture
 
-Guests reservations app that shows how to architect an android app in a clean architecture with kotlin
-coroutines. It shows a list of guests (have reservations and need reservations) that is fetched from local storage.
+Guests reservations app that shows how to architect an android app in a Clean Architecture with Android Architecture MVVM components and Kotlin
+Coroutines. It shows a list of guests (have reservations and need reservations) that is fetched from local storage.
 
 The data of guests can be changed in GuestSelectionViewModel.kt class: change the constant in saveGuests() method 
 into SAMPLE_DATA_LONG or SAMPLE_DATA_SHORT (defined in Constants.kt class)
 
 ## Technical
 
-* [Android Architecture MVVM](https://developer.android.com/jetpack/guide)
+* [Android Architecture - MVVM](https://developer.android.com/jetpack/guide)
 * [Clean Architecture](https://github.com/android10/Android-CleanArchitecture)
 * [Dependency Injection](https://en.wikipedia.org/wiki/Dependency_injection)
 
@@ -26,7 +26,6 @@ into SAMPLE_DATA_LONG or SAMPLE_DATA_SHORT (defined in Constants.kt class)
   data that isn't destroyed on app rotations. Easily schedule asynchronous tasks for optimal
   execution.
 
-
 ### HTTP
 
 * [Moshi](https://github.com/square/moshi) Moshi is a modern JSON library for Android, Java and Kotlin. 
@@ -40,6 +39,6 @@ into SAMPLE_DATA_LONG or SAMPLE_DATA_SHORT (defined in Constants.kt class)
 
 ### DI
 
-* [DaggerHilt](https://developer.android.com/training/dependency-injection/hilt-android) Hilt is a dependency injection library 
+* [DaggerHilt](https://developer.android.com/training/dependency-injection/hilt-android) DaggerHilt is a dependency injection library 
 for Android that reduces the boilerplate of doing manual dependency injection in your project.
 
