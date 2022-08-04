@@ -1,7 +1,7 @@
 # Guests reservations application example with Android Architecture MVVM components and Clean Architecture
 
 Guests reservations app that shows how to architect an android app in a Clean Architecture with Android Architecture MVVM components and Kotlin
-Coroutines. It shows a list of guests (have reservations and need reservations) that is fetched from local storage.
+Coroutines. It shows a list of guests (have reservations and need reservations) that is stored and fetched from local storage.
 
 The data of guests can be changed in GuestSelectionViewModel.kt class: change the constant in saveGuests() method 
 into SAMPLE_DATA_LONG or SAMPLE_DATA_SHORT (defined in Constants.kt class)
@@ -25,6 +25,9 @@ into SAMPLE_DATA_LONG or SAMPLE_DATA_SHORT (defined in Constants.kt class)
 * [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel) Store UI-related
   data that isn't destroyed on app rotations. Easily schedule asynchronous tasks for optimal
   execution.
+  
+* [ConstraintLayout](https://developer.android.com/training/constraint-layout) ConstraintLayout allows you 
+  to create large and complex layouts with a flat view hierarchy (no nested view groups).
 
 ### HTTP
 
