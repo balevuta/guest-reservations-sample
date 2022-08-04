@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">DisneyCodeChallenge_EthanBanh</string>
+
+    <string name="title_have_reservations">These Guests Have Reservations</string>
+    <string name="title_need_reservations">These Guests Need Reservations</string>
+    <string name="title_select_guests">Select Guests</string>
+
+    <string name="message_reservation_needed_alert">Select at least one Guest that has a reservation to continue.</string>
+    <string name="message_guest_rule">At least one Guest in the party must have a reservation. Guests without reservations must remain in the same booking party in order to enter.</string>
+
+    <string name="cta_continue">Continue</string>
+
+    <string name="decs_heading_have_reservation">Heading: These Guests Have Reservations</string>
+    <string name="decs_heading_need_reservation">Heading: These Guests Need Reservations</string>
+    <string name="decs_heading_toolbar_title">Heading: Select Guest</string>
+    <string name="decs_message_guest_rule">Selection rule: at least one Guest in the party must have a reservation. Guests without reservations must remain in the same booking party in order to enter.</string>
+    <string name="decs_back">Back</string>
+</resources>
