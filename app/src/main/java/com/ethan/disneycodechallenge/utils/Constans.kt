@@ -29,42 +29,42 @@ const val SAMPLE_DATA_LONG = """
 [
   {
     "id": "1",
-    "name": "Jackson",
+    "name": "Astra",
     "reservation": true
   },
   {
     "id": "2",
-    "name": "Micheal",
+    "name": "Breach",
     "reservation": false
   },
   {
     "id": "3",
-    "name": "Ethan",
+    "name": "Brimstone",
     "reservation": true
   },
   {
     "id": "4",
-    "name": "Dylan",
+    "name": "Chamber",
     "reservation": false
   },
   {
     "id": "5",
-    "name": "Vision",
+    "name": "Cypher",
     "reservation": true
   },
   {
     "id": "6",
-    "name": "Cathy",
+    "name": "Jett",
     "reservation": false
   },
   {
     "id": "7",
-    "name": "Claudia",
+    "name": "Kay/O",
     "reservation": true
   },
   {
     "id": "8",
-    "name": "Nevermind",
+    "name": "Killjoy",
     "reservation": false
   },
   {
@@ -74,22 +74,22 @@ const val SAMPLE_DATA_LONG = """
   },
   {
     "id": "10",
-    "name": "Jett",
+    "name": "Omen",
     "reservation": false
   },
   {
     "id": "11",
-    "name": "Sova",
+    "name": "Phoenix",
     "reservation": true
   },
   {
     "id": "12",
-    "name": "Reyna",
+    "name": "Raze",
     "reservation": false
   },
   {
     "id": "13",
-    "name": "Chamber",
+    "name": "Reyna",
     "reservation": true
   },
   {
@@ -99,142 +99,142 @@ const val SAMPLE_DATA_LONG = """
   },
   {
     "id": "15",
-    "name": "Jackson",
+    "name": "Skye",
     "reservation": true
   },
   {
     "id": "16",
-    "name": "Micheal",
+    "name": "Sova",
     "reservation": false
   },
   {
     "id": "17",
-    "name": "Ethan",
+    "name": "Viper",
     "reservation": true
   },
   {
     "id": "18",
-    "name": "Dylan",
+    "name": "Yoru",
     "reservation": false
   },
   {
     "id": "19",
-    "name": "Vision",
+    "name": "Abaddon",
     "reservation": true
   },
   {
     "id": "20",
-    "name": "Cathy",
+    "name": "Alchemist",
     "reservation": false
   },
   {
     "id": "21",
-    "name": "Claudia",
+    "name": "Axe",
     "reservation": true
   },
   {
     "id": "22",
-    "name": "Nevermind",
+    "name": "Beastmaster",
     "reservation": false
   },
   {
     "id": "23",
-    "name": "Neon",
+    "name": "Brewmaster",
     "reservation": true
   },
   {
     "id": "24",
-    "name": "Jett",
+    "name": "Bristleback",
     "reservation": false
   },
   {
     "id": "25",
-    "name": "Sova",
+    "name": "Centaur Warrunner",
     "reservation": true
   },
   {
     "id": "26",
-    "name": "Reyna",
+    "name": "Chaos Knight",
     "reservation": false
   },
   {
     "id": "27",
-    "name": "Chamber",
+    "name": "Clockwerk",
     "reservation": true
   },
   {
     "id": "28",
-    "name": "Sage",
+    "name": "Dawnbreaker",
     "reservation": false
   },
   {
     "id": "29",
-    "name": "Jackson",
+    "name": "Doom",
     "reservation": true
   },
   {
     "id": "30",
-    "name": "Micheal",
+    "name": "Dragon Knight",
     "reservation": false
   },
   {
     "id": "31",
-    "name": "Ethan",
+    "name": "Earth Spirit",
     "reservation": true
   },
   {
     "id": "32",
-    "name": "Dylan",
+    "name": "Earthshaker",
     "reservation": false
   },
   {
     "id": "33",
-    "name": "Vision",
+    "name": "Elder Titan",
     "reservation": true
   },
   {
     "id": "34",
-    "name": "Cathy",
+    "name": "Huskar",
     "reservation": false
   },
   {
     "id": "35",
-    "name": "Claudia",
+    "name": "Io",
     "reservation": true
   },
   {
     "id": "36",
-    "name": "Nevermind",
+    "name": "Kunkka",
     "reservation": false
   },
   {
     "id": "37",
-    "name": "Neon",
+    "name": "Legion Commander",
     "reservation": true
   },
   {
     "id": "38",
-    "name": "Jett",
+    "name": "Lifestealer",
     "reservation": false
   },
   {
     "id": "39",
-    "name": "Sova",
+    "name": "Lycan",
     "reservation": true
   },
   {
     "id": "40",
-    "name": "Reyna",
+    "name": "Magnus",
     "reservation": false
   },
   {
     "id": "41",
-    "name": "Chamber",
+    "name": "Marci",
     "reservation": true
   },
   {
     "id": "42",
-    "name": "Sage",
+    "name": "Mars",
     "reservation": false
   }
 ]
